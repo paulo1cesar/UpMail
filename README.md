@@ -7,10 +7,10 @@ Simple application for reading and managing email based on [k-9.](https://github
 Library
 -------
 
-[ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock)
-[Android-Pull-To_Refresh](https://github.com/malinkang/something)
-[CkChangelog](https://github.com/cketti/ckChangeLog)
-[HoloColorPicker](https://github.com/LarsWerkman/HoloColorPicker)
+[ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock) ,
+[Android-Pull-To_Refresh](https://github.com/malinkang/something) ,
+[CkChangelog](https://github.com/cketti/ckChangeLog) ,
+[HoloColorPicker](https://github.com/LarsWerkman/HoloColorPicker) ,
 
 
 ### Build from Sources
