@@ -8,16 +8,16 @@
     <string name="app_name">Up Mail</string>
     <string name="beta_app_name">Up Mail BETA</string>
 
-    <string name="shortcuts_title">Contas Up</string>
-    <string name="unread_widget_label">Up Não lidos</string>
+    <string name="shortcuts_title">Contas de Email</string>
+    <string name="unread_widget_label">E-Mail Não lidos</string>
 
     <string name="remote_control_label">Controle remoto para Up Mail</string>
     <string name="remote_control_desc">Permitir esta aplicação controlar atividades e configurações do Up Mail.</string>
 
 
     <!-- Used in the about dialog -->
-    <string name="app_authors">Google, The Up Dog Walkers.</string>
-    <!-- NEW: <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The Up Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>-->
+    <string name="app_authors">Google, The K9 Dog Walkers.</string>
+    <!-- NEW: <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>-->
     <string name="app_license">Licenciado sob a Apache License, Versão 2.0.</string>
 
 
@@ -27,7 +27,7 @@
 <p>
 Up Mail é um cliente de e-mail com código aberto para Android e é originalmente baseado no cliente de e-mail padrão do Android.
 </p><p>
-Up\'s recursos aprimorados incluídos:
+ recursos aprimorados incluídos:
 </p>
 <ul>
   <li>Puxar e-mail usando IMAP IDLE</li>
@@ -46,23 +46,23 @@ Up\'s recursos aprimorados incluídos:
   <li>…e mais</li>
 </ul>
 <p>
-Por favor, note que Up não suporta mais contas grátis do hotmail e, como muitos clientes de e-mail, tem algumas peculiaridades para utilizar Microsoft Exchange.
+Por favor, note que Up-Mail não suporta  contas grátis do hotmail e, como muitos clientes de e-mail, tem algumas peculiaridades para utilizar Microsoft Exchange.
 </p><p>
 Por favor, nos envie relatórios de bugs, contribua para novas melhorias e faça suas perguntas na página
-<a href="http://k9mail.googlecode.com/">http://k9mail.googlecode.com/</a>.
+<a href="http://www.facebook.com/upmail">http://www.facebook.com/upmail</a>.
 </p>
     ]]></string>
 
 
     <!-- Default signature -->
-    <string name="default_signature">-- \nE-mail enviado do meu celular Android usando Up Mail. Por favor, desculpe minha brevidade.</string>
+    <string name="default_signature">-- \nE-mail enviado do meu celular Android usando Up-Mail. Por favor, desculpe minha brevidade.</string>
 
 
     <!-- General strings that include the app name -->
     <string name="account_delete_dlg_instructions_fmt">A conta \"<xliff:g id="account">%s</xliff:g>\" será removida do Up Mail.</string>
     <string name="account_recreate_dlg_instructions_fmt">Todos os dados relativos à \"<xliff:g id="account">%s</xliff:g>\" serão removidos do Up Mail, mas as configurações da conta serão mantidas.</string>
     <string name="account_clear_dlg_instructions_fmt">Todas as mensagens de \"<xliff:g id="account">%s</xliff:g>\" serão removidas do Up Mail, mas as configurações da conta serão mantidas.</string>
-    <string name="insufficient_apg_permissions">Up não tem permissão total de acesso ao APG , favor reinstalar o Up para resolver.</string>
+    <string name="insufficient_apg_permissions">Up Mail não tem permissão total de acesso ao APG , favor reinstalar o Up Mail para resolver.</string>
 
 
 
@@ -81,11 +81,11 @@ Por favor, nos envie relatórios de bugs, contribua para novas melhorias e faça
     <string name="app_emoji_icons">Emoticons: <xliff:g id="app_emoji_icons_link">%s</xliff:g></string>
 
     <string name="read_attachment_label">Ler anexos do E-mail</string>
-    <string name="read_attachment_desc">Permitir que o Up leia os anexos de seus e-mails.</string>
+    <string name="read_attachment_desc">Permitir que o Up-Mail leia os anexos de seus e-mails.</string>
     <string name="read_messages_label">Ler e-mails</string>
-    <string name="read_messages_desc">Permitir que o Up leia seus e-mails.</string>
+    <string name="read_messages_desc">Permitir que o Up-Mail leia seus e-mails.</string>
     <string name="delete_messages_label">Excluir e-mails</string>
-    <string name="delete_messages_desc">Permitir que o Up exclua seus e-mails.</string>
+    <string name="delete_messages_desc">Permitir que o Up-Mail exclua seus e-mails.</string>
 
     <string name="about_title_fmt">Sobre<xliff:g id="app_name">%s</xliff:g></string>
     <string name="accounts_title">Contas</string>
@@ -1003,7 +1003,7 @@ Por favor, nos envie relatórios de bugs, contribua para novas melhorias e faça
     <string name="settings_export_all">Exportar configurações e contas</string>
     <string name="settings_import_dialog_title">Importar</string>
     <string name="settings_export_dialog_title">Exportar</string>
-    <string name="settings_import">Importar configurações</string>
+    <string name="settings_import">Importar Configs</string>
     <string name="settings_import_selection">Importar seleção</string>
     <string name="settings_import_global_settings">Configurações globais</string>
     <string name="settings_exporting">Exportando…</string>

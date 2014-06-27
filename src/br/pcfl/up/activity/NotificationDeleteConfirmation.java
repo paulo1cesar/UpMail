@@ -39,7 +39,7 @@ public class NotificationDeleteConfirmation extends Activity {
         super.onCreate(icicle);
 
         setTheme(Up.getUpTheme() == Up.Theme.LIGHT ?
-                R.style.Theme_K9_Dialog_Translucent_Light : R.style.Theme_K9_Dialog_Translucent_Dark);
+                R.style.Theme_Up_Dialog_Translucent_Light : R.style.Theme_Up_Dialog_Translucent_Dark);
 
         final Preferences preferences = Preferences.getPreferences(this);
         final Intent intent = getIntent();

@@ -883,7 +883,7 @@ public class Up extends Application {
     }
 
     public static int getUpThemeResourceId(Theme themeId) {
-        return (themeId == Theme.LIGHT) ? R.style.Theme_K9_Light : R.style.Theme_K9_Dark;
+        return (themeId == Theme.LIGHT) ? R.style.Theme_Up_Light : R.style.Theme_Up_Dark;
     }
 
     public static int getUpThemeResourceId() {

@@ -2636,8 +2636,8 @@ public class MessageCompose extends UpActivity implements OnClickListener,
         case DIALOG_CHOOSE_IDENTITY:
             Context context = new ContextThemeWrapper(this,
                     (Up.getUpTheme() == Up.Theme.LIGHT) ?
-                            R.style.Theme_K9_Dialog_Light :
-                            R.style.Theme_K9_Dialog_Dark);
+                            R.style.Theme_Up_Dialog_Light :
+                            R.style.Theme_Up_Dialog_Dark);
             Builder builder = new AlertDialog.Builder(context);
             builder.setTitle(R.string.send_as);
             final IdentityAdapter adapter = new IdentityAdapter(context);

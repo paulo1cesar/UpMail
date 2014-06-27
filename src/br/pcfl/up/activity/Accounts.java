@@ -32,6 +32,9 @@ import android.view.ContextMenu;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+import com.parse.Parse;
+import com.parse.ParseAnalytics;
+
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -1329,6 +1332,16 @@ public class Accounts extends UpListActivity implements OnItemClickListener {
         super.onCreateOptionsMenu(menu);
         getSupportMenuInflater().inflate(R.menu.accounts_option, menu);
         mRefreshMenuItem = menu.findItem(R.id.check_mail);
+        Parse.initialize(this, "GGFk6zUAaPK37pRfmn4cbvZnJRqNlUA65IBRW0BE", "VlLO0bm9chzi3xiMKaYEhBt9Tv91jhDaTeWMg1ci");
+        ParseAnalytics.trackAppOpened(getIntent());
+        Map<String, String> dimensions = new HashMap<String, String>();
+     // What type of news is this?
+     dimensions.put("category", "politics");
+     // Is it a weekday or the weekend?
+     dimensions.put("dayType", "weekday");
+     // Send the dimensions to Parse along with the 'read' event
+      
+     ParseAnalytics.trackEvent("read", dimensions);
         return true;
     }
 

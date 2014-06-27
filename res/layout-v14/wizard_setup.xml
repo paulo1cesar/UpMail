@@ -15,20 +15,20 @@
 
         <Button
             android:id="@+id/manual_setup"
-            style="?android:attr/buttonBarButtonStyle"
+            style="@style/ShadowText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/selectable_item_background"
+            android:background="@drawable/button_background_states"
             android:text="@string/account_setup_basics_manual_setup_action" />
 
         <Button
             android:id="@+id/next"
-            style="?android:attr/buttonBarButtonStyle"
+            style="@style/ShadowText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/selectable_item_background"
+            android:background="@drawable/button_background_states"
             android:text="@string/next_action" />
     </LinearLayout>
 

@@ -8,6 +8,10 @@
      They are automatically updated with "ant bump-version".
 -->
 <changelog>
+     <release version="4.904" versioncode="21007" >
+        <change>Add Slpash Slide</change>
+       
+    </release>
     <release version="4.903" versioncode="21006" >
         <change>Offer encrypted connection by default when manually setting up an account</change>
         <change>Simplified options for authentication and security</change>
